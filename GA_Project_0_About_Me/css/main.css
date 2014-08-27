@@ -3,6 +3,19 @@ p {
   color: red;
 }
 
+.main-header {
+	font-family: Arial;
+	background-color: pink;
+	text-align: center;
+}
+
+h3 {
+	font-size: 12px;
+	color: purple;
+}
+
+a {color: black;}
+
 .main-paragraphs {
   font-size: 14px;
   color: black;
