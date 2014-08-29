@@ -20,7 +20,10 @@ h3 {
   font-family: Tahoma;
 }
 
-a {color: black;}
+a {
+  color: black;
+  text-decoration: none;
+}
 
 .main-paragraphs {
   font-size: 14px;
@@ -32,6 +35,15 @@ a {color: black;}
   float: right;
 }
 
-#MainPhoto {
-  align: middle;
+.Content {
+  text-align: left;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#MainContent {
+
+  margin-right: auto; 
+  margin-left: auto;
+  text-align: center; 
 }
