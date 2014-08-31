@@ -1,11 +1,12 @@
 body {
-  background-color: purple;
+  background-color: #FFCCFF;
 }
 
 p {
   color: black;
   font-family: Tahoma;
   font-size: 12px;
+  margin-top: -10px;
 }
 
 h1 {
@@ -20,9 +21,11 @@ h2 {
 }
 
 h3 {
-  color: purple;
+  background-color: pink;
+  color: #FF0099;
   font-family: Tahoma;
   font-size: 12px;
+  padding: 1px;
 }
 
 a {
@@ -38,7 +41,7 @@ a {
   background-color: pink;
   font-family: Arial;
   margin-top: -34px;
-  margin-bottom: 15px; 
+  margin-bottom: 0px; 
   margin-left: 250px;
   margin-right: 250px; 
   padding-bottom: 10px;
@@ -57,19 +60,20 @@ a {
 
 .content {
   text-align: left;
-  margin-left: 250px;
-  margin-right: 250px;
   background-color: white;
 }
 
 #main-content {
-  margin-left: auto;
-  margin-right: auto; 
+  padding: 5px;
+  background-color: white;
   text-align: center; 
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 #nav {
   background-color: white;
+  border-radius: 10px;
   border-style: none;
   border-width: 1px;
   font-size: 12px;
