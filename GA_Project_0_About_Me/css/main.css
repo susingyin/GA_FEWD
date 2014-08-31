@@ -25,12 +25,22 @@ h3 {
   color: #FF0099;
   font-family: Tahoma;
   font-size: 12px;
+  margin-top: 5px;
   padding: 1px;
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+li {
+  font-family: Tahoma;
+  font-size: 12px;
+}
+
+ul {
+  margin-top: -10px;
 }
 
 .main {
