@@ -58,16 +58,6 @@ ul {
   text-align: center;
 }
 
-.main-paragraphs {
-  color: black;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.main-right {
-  float: right;
-}
-
 .content {
   text-align: left;
   background-color: white;
