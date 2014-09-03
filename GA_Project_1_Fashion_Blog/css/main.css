@@ -1,0 +1,17 @@
+body {
+	background-color: grey;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: Trebuchet MS;
+}
+
+div {
+	background-color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.class {
+	text-align: center;
+
+}
