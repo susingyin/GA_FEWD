@@ -2,30 +2,36 @@ body {
 	background-color: white;
 	margin: 50px;
 	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 	padding-left: 25px;
 	padding-right: 25px;
 }
 
 h1 {
 	color: red;
+	font-weight: normal;
 }
 
 h2 {
 	color: black;
+	font-weight: normal;
 }
 
 h3 {
-	color: grey;
-}
-
-nav {
-	text-align: left;
-	margin-left: -5px;
+	color: black;
+	font-weight: normal;
+	font-size: 1em;
 }
 
 a {
-	color: grey;
-	padding: 5px;
+	color: red;
+	padding-bottom: 5px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+p {
+	font-weight: normal;
 }
 
 div {
@@ -34,7 +40,17 @@ div {
 
 .header {
 	text-align: left;
+	margin-bottom: 50px;
 
+}
+
+.header-nav a {
+	color: #CCCCCC;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CCCCCC;
+	text-decoration: none;
+	margin-right: 25px;
+	/* This replaces nav and a tags */
 }
 
 .first-letter {
@@ -43,4 +59,22 @@ div {
 	color: grey;
 	padding-right: 5px;
 	padding-bottom: 5px;
+}
+
+.content {
+	width: 900px;
+}
+
+.date {
+	color: #CCCCCC;
+}
+
+.continue {
+	text-align: right;
+	font-weight: bold;
+}
+
+.footer {
+	color: #CCCCCC;
+	font-weight: normal;
 }
