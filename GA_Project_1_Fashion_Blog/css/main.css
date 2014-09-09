@@ -40,7 +40,7 @@ div {
 
 .header {
 	text-align: left;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 
 }
 
@@ -54,11 +54,12 @@ div {
 }
 
 .first-letter {
-	font-size: 50px;
+	font-size: 80px;
+	font-weight: normal;
 	float: left;
 	color: grey;
 	padding-right: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 }
 
 .content {
@@ -67,6 +68,7 @@ div {
 
 .date {
 	color: #CCCCCC;
+	margin-bottom: 0px;
 }
 
 .continue {
