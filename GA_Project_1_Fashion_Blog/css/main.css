@@ -53,8 +53,13 @@ div {
 	/* This replaces nav and a tags */
 }
 
+img {
+	max-height: 285px;
+	max-width: 685px;
+}
+
 .first-letter {
-	font-size: 80px;
+	font-size: 100px;
 	font-weight: normal;
 	float: left;
 	color: grey;
@@ -63,7 +68,7 @@ div {
 }
 
 .content {
-	width: 900px;
+	width: 685px;
 }
 
 .date {
@@ -74,6 +79,16 @@ div {
 .continue {
 	text-align: right;
 	font-weight: bold;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #CCCCCC;
+	width: 685px;
+	margin-left: 0;
+	margin-bottom: 50px;
+
 }
 
 .footer {
