@@ -82,6 +82,16 @@ body {
 	padding: 45px;
 	margin: 25px;
 	text-align: center;
+	transition: background-color .5s ease 0s;
+	cursor: pointer;
+}
+
+.stop_button:hover {
+	width: 150px;
+	padding: 45px;
+	margin: 25px;
+	text-align: center;
+	background-color: red;
 }
 
 .caution_button {
@@ -90,6 +100,16 @@ body {
 	padding: 45px;
 	margin: 25px;
 	text-align: center;
+	transition: background-color .5s ease 0s;
+	cursor: pointer;
+}
+
+.caution_button:hover {
+	width: 150px;
+	padding: 45px;
+	margin: 25px;
+	text-align: center;
+	background-color: yellow;
 }
 
 .go_button {
@@ -98,4 +118,14 @@ body {
 	padding: 45px;
 	margin: 25px;
 	text-align: center;
+	transition: background-color .5s ease 0s;
+	cursor: pointer;
+}
+
+.go_button:hover {
+	width: 150px;
+	padding: 45px;
+	margin: 25px;
+	text-align: center;
+	background-color: green;
 }
