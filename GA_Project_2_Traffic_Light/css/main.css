@@ -1,0 +1,67 @@
+.traffic_light {
+	background-color: black;
+	width: 200px;
+	height: 550px;
+	margin: 25px;
+	border: 25px solid black;
+}
+
+.stop_light {
+	background-color: red;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border-radius: 100px;
+	transition: opacity .5s ease 0s;
+	cursor: pointer;
+	opacity: .5;
+}
+
+.stop_light:hover {
+	background-color: red;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border-radius: 100px;
+	opacity: 1;
+}
+
+.caution_light {
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border-radius: 100px;
+	transition: opacity .5s ease 0s;
+	cursor: pointer;
+	opacity: .5;
+}
+
+.caution_light:hover {
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border-radius: 100px;
+	opacity: 1;
+}
+
+.go_light {
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border-radius: 100px;
+	transition: opacity .5s ease 0s;
+	cursor: pointer;
+	opacity: .5;
+}
+
+.go_light:hover {
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border-radius: 100px;
+	opacity: 1;
+}
