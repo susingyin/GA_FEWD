@@ -1,3 +1,7 @@
+body {
+	font-family: Trebuchet MS;
+}
+
 .traffic_light {
 	background-color: black;
 	width: 200px;
@@ -64,4 +68,34 @@
 	margin: 25px;
 	border-radius: 100px;
 	opacity: 1;
+}
+
+.buttons {
+	margin-left: 300px;
+	margin-top: -575px;
+	font-size: 50px;
+}
+
+.stop_button {
+	width: 150px;
+	border: 1px solid black;
+	padding: 45px;
+	margin: 25px;
+	text-align: center;
+}
+
+.caution_button {
+	width: 150px;
+	border: 1px solid black;
+	padding: 45px;
+	margin: 25px;
+	text-align: center;
+}
+
+.go_button {
+	width: 150px;
+	border: 1px solid black;
+	padding: 45px;
+	margin: 25px;
+	text-align: center;
 }
