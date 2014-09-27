@@ -4,64 +4,69 @@
     <title>All About Susing</title>
 </head>
 <body>
-    <div> 
-	<div class="main-header"> 
-		<h1>Susing Yin</h1>
-		<h2>Welcome to my homepage!</h2>
-		<nav>
-            <a href="mailto: susingyin@gmail.com" id="nav">Contact me</a> 
-            <a href="http://www.linkedin.com/in/susingyin/" id="nav">LinkedIn</a>
-            <a href="http://www.facebook.com/susing.yin" id="nav">Facebook</a> 
-            <a href="https://twitter.com/susing_yin" id="nav">Twitter</a> 
-            <a href="http://instagram.com/susingy" id="nav">Instagram</a>
-        </nav>
-	</div>
-  
-	<div id="main-content">
+    <div> <!-- No need to wrap your content in a div. If you need a wrapper for all of your content, you can apply style to the <body> tag.  -->
+    	<div class="main-header"> <!-- Consider using a <header> tag instead -->
+    		<h1>Susing Yin</h1>
+    		<h2>Welcome to my homepage!</h2>
+    		<nav>
+                <a href="mailto: susingyin@gmail.com" id="nav">Contact me</a> 
+                <a href="http://www.linkedin.com/in/susingyin/" id="nav">LinkedIn</a>
+                <a href="http://www.facebook.com/susing.yin" id="nav">Facebook</a> 
+                <a href="https://twitter.com/susing_yin" id="nav">Twitter</a> 
+                <a href="http://instagram.com/susingy" id="nav">Instagram</a>
+            </nav>
+    	</div>
+    	<div id="main-content"> <!-- Consider using a <main> tag instead -->
+            <img src ="img/about_me.jpg" height="300px" />
+            <div class="content">
+                <div class="about-me"> <!-- Consider wrapping this section in a div. Will help breakup and encapsulate your code -->
+                    <h3>About Me</h3>
+                    <p>I was born and raised a New Yorker.  I enjoy figure skating, baking, running, and traveling around the world!  Kristi Yamaguchi and Scott Hamilton were my idols while growing up.  I love to bake and I am a pastry nerd.  My specialties are cheesecakes, tarts, and sponge cakes.  My guilty pleasure is watching Food Network.  I am left-handed.  I enjoy running outdoors, whether it's at the trackfield, on a trail, or the boardwalk along a beach or harbor.  I love to travel and have a huge bucket list! Travel buddies anyone?</p>
+                </div>
+                
+                <div class="backgroud"> <!-- Consider wrapping this section in a div. Will help breakup and encapsulate your code -->
+                    <h3>Background</h3>
+                    <p>I am a personal banker at Wells Fargo, but seeking to transition into a career within the startup and technology industry. I am currently enrolled in the Front-End Web Development course at General Assembly. I graduated from CUNY Baruch College with a BBA in Entrepreneurship Management and minor in Information Technology and Social Responsibility.</p>
+                    <p>For more information about my education and work experience, please visit my <a href="http://www.linkedin.com/in/susingyin/">LinkedIn</a> page.
+                </div>
 
-        <img src ="img/about_me.jpg" height="300px" />
-  
-        <div class="content">
-            <h3>About Me</h3>
-            <p>I was born and raised a New Yorker.  I enjoy figure skating, baking, running, and traveling around the world!  Kristi Yamaguchi and Scott Hamilton were my idols while growing up.  I love to bake and I am a pastry nerd.  My specialties are cheesecakes, tarts, and sponge cakes.  My guilty pleasure is watching Food Network.  I am left-handed.  I enjoy running outdoors, whether it's at the trackfield, on a trail, or the boardwalk along a beach or harbor.  I love to travel and have a huge bucket list! Travel buddies anyone?</p>
+                <div class="travels"> <!-- Consider wrapping this section in a div. Will help breakup and encapsulate your code -->
+                    <h3>Susing's Travels</h3>
+                    <p>Places I have visited:</p>
+                    <ul>
+                    	<li>Taiwan</li>
+                    	<li>Puerto Rico</li>
+                    	<li>Hong Kong</li>
+                    	<li>Thailand</li>
+                    	<li>California</li>
+                    	<li>Chicago</li>
+                    	<li>Las Vegas</li>
+                    	<li>Hawaii</li>
+                    </ul>
+                    <p>Places I want to visit:</p>
+                    <ul>
+                    	<li>Australia</li>
+                        <li>China</li>
+                        <li>Greece</li>
+                        <li>Iceland</li>
+                    	<li>Italy</li>
+                        <li>New Zealand</li>
+                    	<li>Peru</li>
+                        <li>Spain</li>
+                    </ul>
+                </div>
+                
+                <div class="bucket-list"> <!-- Consider wrapping this section in a div. Will help breakup and encapsulate your code -->
+                    <h3>Bucket List</h3>
+                    <ul>
+                    	<li>Skydiving</li>
+                    	<li>Culinary School</li>
+                    	<li>Aurora Borealis (Northern Lights)</li>
+                    </ul>
+                </div>
 
-            <h3>Background</h3>
-            <p>I am a personal banker at Wells Fargo, but seeking to transition into a career within the startup and technology industry.  I am currently enrolled in the Front-End Web Development course at General Assembly.  I graduated from CUNY Baruch College with a BBA in Entrepreneurship Management and minor in Information Technology and Social Responsibility.</p>
-        
-            <p>For more information about my education and work experience, please visit my <a href="http://www.linkedin.com/in/susingyin/">LinkedIn</a> page.
-        
-            <h3>Susing's Travels</h3>
-            <p>Places I have visited:</p>
-            <ul>
-            	<li>Taiwan</li>
-            	<li>Puerto Rico</li>
-            	<li>Hong Kong</li>
-            	<li>Thailand</li>
-            	<li>California</li>
-            	<li>Chicago</li>
-            	<li>Las Vegas</li>
-            	<li>Hawaii</li>
-            </ul>
-            <p>Places I want to visit:</p>
-            <ul>
-            	<li>Australia</li>
-                <li>China</li>
-                <li>Greece</li>
-                <li>Iceland</li>
-            	<li>Italy</li>
-                <li>New Zealand</li>
-            	<li>Peru</li>
-                <li>Spain</li>
-            	</ul>
-            <h3>Bucket List</h3>
-            <ul>
-            	<li>Skydiving</li>
-            	<li>Culinary School</li>
-            	<li>Aurora Borealis (Northern Lights)</li>
-            </ul>
+            </div>
         </div>
-
-    </div>
     </div>
 </body>
 </html>
