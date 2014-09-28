@@ -1,3 +1,4 @@
+// Red or Stop Light
 function stopClick (){
   var goLight = document.getElementById('goLight');
   var cautionLight = document.getElementById('cautionLight');
@@ -9,6 +10,7 @@ function stopClick (){
   light.style.backgroundColor = "red";
 }
 
+// Yellow or Caution Light
 function cautionClick (){
   var goLight = document.getElementById('goLight');
   var stopLight = document.getElementById('stopLight');
@@ -20,6 +22,7 @@ function cautionClick (){
   light.style.backgroundColor = "yellow";
 }
 
+// Green or Go Light
 function goClick (){
   var cautionLight = document.getElementById('cautionLight');
   var stopLight = document.getElementById('stopLight');
