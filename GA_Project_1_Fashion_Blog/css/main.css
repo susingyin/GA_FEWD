@@ -39,6 +39,21 @@ div {
 
 }
 
+img {
+	max-height: 285px;
+	max-width: 685px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #E0E0E0;
+	width: 685px;
+	margin-left: 0;
+	margin-bottom: 50px;
+
+}
+
 .header {
 	text-align: left;
 	margin-bottom: 60px;
@@ -54,21 +69,6 @@ div {
 	text-decoration: none;
 	margin-right: 25px;
 	/* This replaces nav and a tags */
-}
-
-img {
-	max-height: 285px;
-	max-width: 685px;
-}
-
-hr {
-	border: 0;
-	height: 1px;
-	background: #E0E0E0;
-	width: 685px;
-	margin-left: 0;
-	margin-bottom: 50px;
-
 }
 
 .first-letter {
