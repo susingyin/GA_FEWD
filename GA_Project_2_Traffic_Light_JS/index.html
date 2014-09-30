@@ -8,16 +8,16 @@
 	<title>Traffic Light</title>
 </head>
 <body>
+	<h1>Traffic Light</h1>
 	<div id="trafficLight">
-		<div id="stopLight" class="light"></div>
-		<div id="cautionLight" class="light"></div>
-		<div id="goLight" class="light"></div>
+		<div id="stopLight" onclick="stopClick()" class="light"></div> 
+		<div id="cautionLight" onclick="cautionClick()" class="light"></div>
+		<div id="goLight" onclick="goClick()" class="light"></div>   
 	</div>
-
-	<div id="buttons">
-		<div id="stopButton" class="button">Stop</div>
-		<div id="cautionButton" class="button">Caution</div>
-		<div id="goButton" class="button">Go</div>
+	<div id="buttonControls">
+		<span class="button" onclick="stopClick()">Stop</span>
+		<span class="button" onclick="cautionClick()">Caution</span>
+		<span class="button" onclick="goClick()">Go</span>
 	</div>	
 </body>
 </html>

@@ -2,165 +2,52 @@ body {
 	font-family: Trebuchet MS;
 }
 
-#trafficLight {
-	background-color: black;
-	width: 300px;
-	height: 600px;
-	float: left;
-	border-radius: 10px;
-	padding-top: 50px;
-}
-
-#buttons {
-	width: 300px;
-	height: 600px;
-	float: left;
-	padding-top: 50px;
+h1 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-align: center;
 }
 
 .light {
 	background-color: black;
-	width: 175px;
-	height: 175px;
-	border: 1px solid white;
+	border: 5px solid white;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-radius: 50%;
 }
 
 .button {
-	border: 1px solid black;
-	width: 175px;
-	height: 175px;
+  background-color: white;
+  border: 1px solid #FFCC00;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+.button:hover {
+	background-color: #FFCC00;
+	color: white;
+}
+
+#trafficLight {
+	background-color: #FFCC00;
+	border-radius: 25px;
+	height: 525px;
+	width: 250px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: center;
-	transition: background-color .5s ease 0s;
-	cursor: pointer;
-	border-radius: 25px;
+	padding-top: 5px;
+	
 }
 
-/*CSS Properties to be re-implemented*/
-.stop_light {
-	background-color: red;
-	width: 150px;
-	height: 150px;
-	margin: 25px;
-	border-radius: 100px;
-	transition: opacity .5s ease 0s;
-	cursor: pointer;
-	opacity: .5;
-}
-
-.stop_light:hover {
-	background-color: red;
-	width: 150px;
-	height: 150px;
-	margin: 25px;
-	border-radius: 100px;
-	opacity: 1;
-}
-
-.caution_light {
-	background-color: yellow;
-	width: 150px;
-	height: 150px;
-	margin: 25px;
-	border-radius: 100px;
-	transition: opacity .5s ease 0s;
-	cursor: pointer;
-	opacity: .5;
-}
-
-.caution_light:hover {
-	background-color: yellow;
-	width: 150px;
-	height: 150px;
-	margin: 25px;
-	border-radius: 100px;
-	opacity: 1;
-}
-
-.go_light {
-	background-color: green;
-	width: 150px;
-	height: 150px;
-	margin: 25px;
-	border-radius: 100px;
-	transition: opacity .5s ease 0s;
-	cursor: pointer;
-	opacity: .5;
-}
-
-.go_light:hover {
-	background-color: green;
-	width: 150px;
-	height: 150px;
-	margin: 25px;
-	border-radius: 100px;
-	opacity: 1;
-}
-
-.buttons {
-	margin-left: 300px;
-	margin-top: -575px;
-	font-size: 50px;
-}
-
-.stop_button {
-	width: 150px;
-	border: 1px solid black;
-	padding: 45px;
-	margin: 25px;
-	text-align: center;
-	transition: background-color .5s ease 0s;
-	cursor: pointer;
-}
-
-.stop_button:hover {
-	width: 150px;
-	padding: 45px;
-	margin: 25px;
-	text-align: center;
-	background-color: red;
-}
-
-.caution_button {
-	width: 150px;
-	border: 1px solid black;
-	padding: 45px;
-	margin: 25px;
-	text-align: center;
-	transition: background-color .5s ease 0s;
-	cursor: pointer;
-}
-
-.caution_button:hover {
-	width: 150px;
-	padding: 45px;
-	margin: 25px;
-	text-align: center;
-	background-color: yellow;
-}
-
-.go_button {
-	width: 150px;
-	border: 1px solid black;
-	padding: 45px;
-	margin: 25px;
-	text-align: center;
-	transition: background-color .5s ease 0s;
-	cursor: pointer;
-}
-
-.go_button:hover {
-	width: 150px;
-	padding: 45px;
-	margin: 25px;
-	text-align: center;
-	background-color: green;
+#buttonControls {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+	width: 250px;
 }

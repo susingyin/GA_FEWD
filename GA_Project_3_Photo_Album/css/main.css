@@ -1,0 +1,25 @@
+body {
+
+}
+
+h1 {
+
+}
+
+#previews {
+	width: 600px;
+	height: 100px;
+	background-color: pink;
+}
+
+.thumbnail {
+	width: 135px;
+	height: 90px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#photo {
+	width: 600px;
+	height: 400px;
+}
