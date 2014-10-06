@@ -5,7 +5,6 @@ function changePhoto(whichNum) {
 	var img = document.getElementById('mainPhoto');
 	img.setAttribute('src', images[whichNum]);
 	currentImage = whichNum;
-}
 
 function nextImage() {
 	currentImage++;
@@ -22,5 +21,5 @@ function backImage() {
 		currentImage = 0;
 	}
 	var img = document.getElementById('mainPhoto');
-	img.setAttribute('src', images[currentImage]);
+	img.setAttribute('src', images[currentImage]);	
 }

@@ -1,9 +1,9 @@
 body {
 	background-color: pink;
+	font-family: 'Trebuchet MS', Helvetica, Sans-Serif; 
 }
 
 h1 {
-	font-family: 'Trebuchet MS', Helvetica, Sans-Serif;
 	text-align: center;
 	background-color: #FFCCFF;
 	font-size: 50px;
@@ -21,6 +21,19 @@ h1 {
 
 #nav {
 	height: 100px;
+}
+
+#mainPhoto {
+	padding-top: 10px;
+	margin: 10px;
+	width: 600px;
+	height: 400px;
+}
+
+#buttons {
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Trebuchet MS', Helvetica, Sans-Serif;
 }
 
 .thumbNail {
@@ -47,16 +60,4 @@ h1 {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
-}
-
-#mainPhoto {
-	padding-top: 10px;
-	margin: 10px;
-	width: 600px;
-	height: 400px;
-}
-
-#buttons {
-	text-align: center;
-	cursor: pointer;
 }
