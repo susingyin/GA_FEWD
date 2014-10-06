@@ -27,18 +27,17 @@ h1 {
 	display: inline-block;
 	height: 100px;
 	width: 140px;
-/*	margin-top: 5px;
+	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	padding-bottom: 0px;
-	border-radius: 10px; */
+	border-radius: 10px;
 	cursor: pointer;
 }
 
-/*.thumbNail:hover {
+.thumbNail:hover {
 	opacity: .75;
-}*/
+}
 
 .thumb {
 	height: 100px;
@@ -47,9 +46,11 @@ h1 {
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
+	margin-bottom: 5px;
 }
 
 #mainPhoto {
+	padding-top: 10px;
 	margin: 10px;
 	width: 600px;
 	height: 400px;
