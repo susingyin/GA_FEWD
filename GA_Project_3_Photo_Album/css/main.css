@@ -19,33 +19,40 @@ h1 {
 	float: center;
 }
 
-#thumbnails {
+#nav {
 	height: 100px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	position: relative;
 }
 
-.thumbnail {
+.thumbNail {
 	display: inline-block;
 	height: 100px;
 	width: 140px;
-	margin-top: 5px;
+/*	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
 	padding-bottom: 0px;
-	border-radius: 10px;
+	border-radius: 10px; */
 	cursor: pointer;
 }
 
-.thumbnail:hover {
+/*.thumbNail:hover {
 	opacity: .75;
+}*/
+
+.thumb {
+	height: 100px;
+	width: 140px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 #mainPhoto {
 	margin: 10px;
+	width: 600px;
+	height: 400px;
 }
 
 #buttons {
