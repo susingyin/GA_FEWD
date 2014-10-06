@@ -1,25 +1,25 @@
 var images = ["img/thumb-0.jpg", "img/thumb-1.jpg", "img/thumb-2.jpg", "img/thumb-3.jpg"];
-var currentImage = 0;
+var currentPhoto = 0;
 
 function changePhoto(whichNum) {
 	var img = document.getElementById('mainPhoto');
 	img.setAttribute('src', images[whichNum]);
-	currentImage = whichNum;
-
-function nextImage() {
-	currentImage++;
-	if(currentImage===images.length){
-		currentImage = 0;
-	}
-	var img = document.getElementById('mainPhoto');
-	img.setAttribute('src', images[currentImage]);
-}
+	currentPhoto = whichNum;
 
 function backImage() {
-	currentImage = currentImage - 1;
-	if(currentImage=== -1){
-		currentImage = 0;
+	currentPhoto = currentPhoto - 1;
+	if(currentPhoto=== -1){
+		currentPhoto = 0;
 	}
 	var img = document.getElementById('mainPhoto');
-	img.setAttribute('src', images[currentImage]);	
+	img.setAttribute('src', images[currentPhoto]);	
+}
+
+function nextImage() {
+	currentPhoto++;
+	if(currentPhoto===images.length){
+		currentPhoto = 0;
+	}
+	var img = document.getElementById('mainPhoto');
+	img.setAttribute('src', images[currentPhoto]);
 }
