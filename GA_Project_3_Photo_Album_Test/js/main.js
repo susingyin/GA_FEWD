@@ -1,4 +1,5 @@
-var images = ["img/thumb-0.jpg", "img/thumb-1.jpg", "img/thumb-2.jpg", "img/thumb-3.jpg"];
+//This is an array.  The images are a string
+var images = ["img/thumb-0.jpg", "img/thumb-1.jpg", "img/thumb-2.jpg", "img/thumb-3.jpg", "img/thumb-4.jpg"];
 var currentImage = 0;
 
 function changePicture(whichNum) {
@@ -16,11 +17,11 @@ function nextImage() {
 	img.setAttribute('src', images[currentImage]);
 }
 
-function backImage() {
+function prevImage() {
 	currentImage = currentImage - 1;
 	if(currentImage=== -1){
 		currentImage = 0;
 	}
 	var img = document.getElementById('mainImage');
-	img.setAttribute('src', images[currentImage]);
+	img.setAttribute('src', images[currentImage]);	
 }

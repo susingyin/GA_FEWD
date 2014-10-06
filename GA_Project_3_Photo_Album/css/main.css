@@ -1,25 +1,54 @@
 body {
-
-}
-
-h1 {
-
-}
-
-#previews {
-	width: 600px;
-	height: 100px;
 	background-color: pink;
 }
 
-.thumbnail {
-	width: 135px;
-	height: 90px;
-	margin-top: 5px;
-	margin-left: 5px;
+h1 {
+	font-family: 'Trebuchet MS', Helvetica, Sans-Serif;
+	text-align: center;
+	background-color: #FFCCFF;
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
-#photo {
-	width: 600px;
-	height: 400px;
+#main {
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: white;
+	position: absolute;
+	float: center;
+}
+
+#thumbnails {
+	height: 100px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	position: relative;
+}
+
+.thumbnail {
+	display: inline-block;
+	height: 100px;
+	width: 140px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-bottom: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.thumbnail:hover {
+	opacity: .75;
+}
+
+#mainPhoto {
+	margin: 10px;
+}
+
+#buttons {
+	text-align: center;
+	cursor: pointer;
 }

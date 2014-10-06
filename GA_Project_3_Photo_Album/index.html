@@ -1,29 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE html />
 <html lang=“en”>
 <head>
 	<meta charset=“UTF-8”>
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<script type="text/javascript" src="js/application.js"></script>
-	<title>Susing's Photo Album</title>
+	<title>Susing's Bakery</title>
 </head>
 <body>
-	<div id="header">
-		<h1>Susing's Photo Album</h1>
-	</div>
-	<div id="previews">
-		<img src="" class="thumbnail" />
-		<img src="" class="thumbnail" />
-		<img src="" class="thumbnail" />
-		<img src="" class="thumbnail" />
-	</div>
+	<div id="main">
+		<h1>Susing's Bakery</h1>
+		<div id="thumbnails">
+			<div onclick="changePhoto(0)"><img class="thumbnail" src="img/thumb-0.jpg" /></div>
+			<div onclick="changePhoto(1)"><img class="thumbnail" src="img/thumb-1.jpg" /></div>
+			<div onclick="changePhoto(2)"><img class="thumbnail" src="img/thumb-2.jpg" /></div>
+			<div onclick="changePhoto(3)"><img class="thumbnail" src="img/thumb-3.jpg" /></div>
+		</div>
 
-	<div id="photo">
-		<img src="" id="image" />
-	</div>
+		<div id="mainPhoto">
+			<img src="img/thumb-0.jpg" id="image" />
+		</div>
 
-	<div id="buttons">
-		<a href="http://">Back</a>
-		<a href="http://">Next</a>
+		<div id="buttons">
+			<span id="backButton" onclick="backImage()" class="button" id="back">Back</a> |
+			<span id="nextButton" onclick="nextImage()" class="button" id="next">Next</a>
+		</div>
 	</div>
 </body>
 </html>
