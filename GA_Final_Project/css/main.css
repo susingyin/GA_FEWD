@@ -1,0 +1,75 @@
+body {
+	font-family: Arial;
+}
+
+header {
+	
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	background-color: #FFCCFF;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	background-color: white;
+}
+
+h4 {
+	font-size: .75em;
+}
+
+#nav {
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+	back
+}
+
+#content {
+	padding-top: 10px;
+}
+
+#rightColumn {
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	background-color: grey;
+}
+
+#profile {
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+}
+
+.thumbnail {
+	width: 50%;
+}
+
+.thumbnail:hover {
+	opacity: .75;
+}
+
+.sm {
+	width: 25px;
+	height: 25px;
+}
+
+#columnA {
+	width: 50%%;
+	float: left;
+}
+
+#columnB {
+	width: 50%%;
+	float: left;
+}
