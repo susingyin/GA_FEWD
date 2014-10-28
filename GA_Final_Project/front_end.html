@@ -1,66 +1,95 @@
-<!DOCTYPE html />
-<html lang=“en”>
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset=“UTF-8”>
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
 	<title>Susing Yin</title>
 </head>
 <body>
 	<header>
 		<h1>Susing Yin</h1>
-	</header>
 	
-	<div id="nav">
-		<a href="index.html" id="main">Main</a> | 
-		<a href="resume.html" id="resume">Resume</a> | 
-		<a href="front_end.html" id="frontEnd">Front-End Portfolio</a> | 
-		<a href="contact.html" id="contact">Contact</a>
-	</div>
+	</header>
+
+	<nav>
+			<a href="index.html" id="resume">Resume</a>
+			<a href="front_end.html" id="portfolio">Portfolio</a>
+			<a href="credits.html" id="credits">Credits</a>
+			<a href="contact.html" id="contact">Contact</a> 
+		</nav>
 
 	<div id="content">
-	<h2>Front-End Portfolio</h2>
-
-		<div id="columnA">
-			<div class="thumbnail">
-				<a href="FEWD/project_0.html"><img src="img/FEWD/project_0.jpg" class="thumbnail" /></a>
-				<!-- <p>"About Me" page utilizing basic HTML and CSS</p> -->
-			</div>
-			
-			<div class="thumbnail">
-				<a href="FEWD/project_1.html"><img src="img/FEWD/project_1.jpg" class="thumbnail" /></a>
-				<!-- <p>The Best Chocolate Chip Cookies page focusing on font size, lists, and headers</p> -->
-			</div>
-			
-			<div class="thumbnail">
-				<a href="FEWD/project_2.html"><img src="img/FEWD/project_2.jpg" class="thumbnail" /></a>
-				<!-- <p>This is a fashion blog page, which focuses on formatting</p> -->
-			</div>
+		<div id="imageNav">
+			<div class="thumbnail" onclick="changePhoto(0)"><img src="img/portfolio/project_0.jpg" class="thumb" /></div>
+			<div class="thumbnail" onclick="changePhoto(1)"><img src="img/portfolio/project_1.jpg" class="thumb" /></div>
+			<div class="thumbnail" onclick="changePhoto(2)"><img src="img/portfolio/project_2.jpg" class="thumb" /></div>
+			<div class="thumbnail" onclick="changePhoto(3)"><img src="img/portfolio/project_3a.jpg" class="thumb" /></div>
+			<div class="thumbnail" onclick="changePhoto(4)"><img src="img/portfolio/project_3b.jpg" class="thumb" /></div>
+			<div class="thumbnail" onclick="changePhoto(5)"><img src="img/portfolio/project_4.jpg" class="thumb" /></div>
 		</div>
 
-		<div id="columnB">
-			<div class="thumbnail">
-				<a href="FEWD/project_3a.html"><img src="img/FEWD/project_3a.jpg" class="thumbnail" /></a>
-				<!-- <p>This is the early stages of a traffic light, which only utilizes HTML and CSS</p> -->
-			</div>
-
-			<div class="thumbnail">
-				<a href="FEWD/project_3b.html"><img src="img/FEWD/project_3b.jpg" class="thumbnail" /></a>
-				<!-- <p>This is a traffic light that uses JavaScript</p> -->
-			</div>
-			
-			<div class="thumbnail">
-				<a href="FEWD/project_4.html"><img src="img/FEWD/project_4.jpg" class="thumbnail" /></a>
-				<!-- <p>This is a photo album that usses JavaScript</p> -->
-			</div>
+		<div id="centerPhoto">
+			<img id="mainPhoto" src="img/portfolio/project_0.jpg" />
 		</div>
 
-		<!-- Projects to pop-up in separate page or in a frame?  Aren't in-frames bad? -->
-
+		<div id="portfolioButtons">
+			<a id="backButton" onclick="backImage()" class="button" id="back">Back</a> |
+			<a id="nextButton" onclick="nextImage()" class="button" id="next">Next</a>
+		</div>
 	</div>
 
 	<footer>
+		<a href="mailto:susingyin@gmail.com" target="_blank"><img src="img/Contact/mail.png" class="sm" alt="E-mail" /></a> <a href="resume.pdf" target="_blank"><img src ="img/pdf.png" class="sm" alt="Resume" /></a> <a href="https://www.linkedin.com/in/susingyin" target="_blank"><img src="img/Contact/linkedin.png" class="sm" alt="LinkedIn" /></a> <a href="https://www.github.com/susingyin/GA_FEWD" target="_blank"><img src="img/Contact/github.png" class="sm" alt="GitHub" /></a> <a href="https://twitter.com/susing_yin" target="_blank"><img src="img/Contact/twitter.png" class="sm" alt="Twitter" /></a> <a href="https://www.facebook.com/susing.yin" target="_blank"><img src="img/Contact/facebook.png" class="sm" alt="Facebook" /></a>  <a href="http://www.instagram.com/susingy" target="_blank"><img src="img/Contact/instagram.png" class="sm" alt="Instagram" /></a>
 	</footer>
 
 </body>
 </html>
+
+<!--<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+
+	<title>Lightbox</title>
+
+	<meta name="description" lang="en" content="Lightbox is a script used to overlay images on the current page. It's a snap to setup and works on all modern browsers."/>
+	<meta name="author" content="Lokesh Dhakar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+
+	<link rel="stylesheet" href="css/screen.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+	<header>
+		<h1>Susing Yin</h1>
+	</header>
+
+	<nav>
+		<a href="resume.html" id="resume">Resume</a>
+		<a href="front_end.html" id="portfolio">Portfolio</a>
+		<a href="credits.html" id="credits">Credits</a>
+		<a href="contact.html" id="contact">Contact</a> 
+	</nav>
+
+	<section id="examples" class="examples-section">
+		<div class="container">
+			<div class="image-row">
+				<a class="imageLink" href="img/imgs/project_0.jpg" data-lightbox="example-1" data-title="About Me Page"><img class="example-image" src="img/imgs/project_0.jpg" alt="image-1" /></a>
+				<a class="imageLink" href="img/imgs/project_1.jpg" data-lightbox="example-1" data-title="The Best Chocolate Chip Cookies"><img class="example-image" src="img/imgs/project_1.jpg" alt="image-1" /></a>
+				<a class="imageLink" href="img/imgs/project_2.jpg" data-lightbox="example-1" data-title="Fashion Blog"><img class="example-image" src="img/imgs/project_2.jpg" alt="image-1" /></a>
+				<a class="imageLink" href="img/imgs/project_3a.jpg" data-lightbox="example-1" data-title="Basic Traffic Light"><img class="example-image" src="img/imgs/project_3a.jpg" alt="image-1" /></a>
+				<a class="imageLink" href="img/imgs/project_3b.jpg" data-lightbox="example-1" data-title="JavaScript Traffic Light"><img class="example-image" src="img/imgs/project_3b.jpg" alt="image-1" /></a>
+				<a class="imageLink" href="img/imgs/project_4.jpg" data-lightbox="example-1" data-title="Photo Album"><img class="example-image" src="img/imgs/project_4.jpg" alt="image-1" /></a>
+			</div>
+
+			<hr />
+
+		</div>
+	</section>
+
+</body>
+</html>-->

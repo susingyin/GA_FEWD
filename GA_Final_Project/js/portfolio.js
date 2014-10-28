@@ -1,4 +1,4 @@
-var images = ["img/thumb-0.jpg", "img/thumb-1.jpg", "img/thumb-2.jpg", "img/thumb-3.jpg"];
+var images = ["img/portfolio/project_0.jpg", "img/portfolio/project_1.jpg", "img/portfolio/project_2.jpg", "img/portfolio/project_3a.jpg" , "img/portfolio/project_3b.jpg", "img/portfolio/project_4.jpg"];
 var currentPhoto = 0;
 
 function changePhoto(whichNum) {
