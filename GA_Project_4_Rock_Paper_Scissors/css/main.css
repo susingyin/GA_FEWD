@@ -1,0 +1,15 @@
+body {
+	font-family: Trebuchet MS;
+}
+
+.material {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#material {
+	height: 200px;
+	width: 200px;
+}

@@ -1,0 +1,49 @@
+<!--OLD CODE
+<html>
+<head>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<title>Rock, Paper, Scissors Game</title>
+</head>
+<body>
+	<h1>Rock, Paper, Scissors Game</h1>
+
+<form>
+<input type="radio" name="material" value="rock" onclick="userChoice"><img src="img/rock.jpg" class="material" /><br>
+<input type="radio" name="material" value="paper" onclick="userChoice"><img src="img/paper.jpg" class="material" /><br>
+<input type="radio" name="material" value="scissors" onclick="userChoice"><img src="img/scissors.jpg" class="material" /><br>
+<button type="sumbit" value="submit">Submit
+</form>
+
+</body>
+</html>
+-->
+
+<html>
+<head>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<title>Rock, Paper, Scissors Game</title>
+</head>
+<body>
+	<h1>Rock, Paper, Scissors Game</h1>
+
+	<div id="material">
+		<div class="material" onclick="userChoice"><img src="img/rock.jpg" class="material" /></div>
+		<div class="material" onclick="userChoice"><img src="img/paper.jpg" class="material" /></div>
+		<div class="material" onclick="userChoice"><img src="img/scissors.jpg" class="material" /></div>
+	</div>
+
+	<div id="score">
+		<div>
+			User:
+		</div>
+		<div>
+			Computer:
+		</div>
+	</div>
+
+</body>
+</html>
